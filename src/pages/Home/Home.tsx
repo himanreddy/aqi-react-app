@@ -40,7 +40,7 @@ const Home = () => {
 
   return (
     <div className="container py-3 px-1">
-      <Websocket url='ws://city-ws.herokuapp.com/' onMessage={handleCityAQIData}/>
+      <Websocket url='wss://city-ws.herokuapp.com/' onMessage={handleCityAQIData}/>
       <div className="sticky-top text-center bg-custom-gray py-2">
         <h1>Air Quality Index</h1>
         <p className="text-secondary my-0">Real time data of 12 Indian cities.</p>
