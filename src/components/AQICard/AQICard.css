@@ -1,0 +1,39 @@
+.card {
+  border-radius: 16px;
+  box-shadow: 0px 0px 10px 2px #f2f2f7;
+  border: none;
+}
+
+.aqi-icon {
+  width: 72px;
+  margin-right: 1rem;
+}
+
+.aqi-type {
+  background-color: #efefef;
+  border-radius: 16px;
+  height: 72px;
+  width: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s all ease-in-out;
+}
+.aqi-type > svg {
+  fill: white;
+  height: 28px;
+  width: 28px;
+}
+.aqi-parent {
+  transition: 0.2s all ease-in-out;
+}
+.aqi-parent:hover {
+  transform: translateY(-3px);
+}
+
+.updated-at {
+  position: absolute;
+  right: 14px;
+  font-size: 12px;
+  top: 22px;
+}
